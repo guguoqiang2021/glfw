@@ -1,3 +1,9 @@
+//   
+//   变更点： 1： mouse移动到顶点附近按下鼠标按钮，可以移动顶点
+//           2：在三角形的外接矩形内部按下鼠标按钮，可以平移整个三角形
+//           3：在三角形的外接矩形外部按下鼠标按钮，可以翻转三角形，以X轴或Z轴翻转
+//  实际执行效果，参照根目录的Traiangle.gif文件( https://github.com/guguoqiang2021/glfw/edit/master/Traiangle.gif )
+//
 #define _USE_MATH_DEFINES
 #
 #define GLAD_GL_IMPLEMENTATION
